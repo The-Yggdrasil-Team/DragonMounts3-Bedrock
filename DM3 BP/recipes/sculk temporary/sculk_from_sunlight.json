@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dragonmounts:sculk_dragonscalessunlight"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " E ",
+      "EDE",
+      " E "
+    ],
+    "key": {
+      "E": {
+        "item": "minecraft:echo_shard"
+      },
+      "D": {
+        "item": "dragonmounts:sunlight_dragonscales"
+      }
+    },
+    "result": {
+      "item": "dragonmounts:sculk_dragonscales",
+      "count": 4
+    }
+  }
+}
