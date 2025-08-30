@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dragonmounts:moonlight_dragon_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": ["tool:can_be_damaged"],
+			"minecraft:max_stack_size": 1,
+			"minecraft:damage": 9,
+			"minecraft:hand_equipped": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:icon": "moonlight_dragon_sword",
+			"minecraft:durability": {
+				"max_durability": 2160
+			},
+			"minecraft:display_name": {
+				"value": "item.dragonmounts:moonlight_dragon_sword.name"
+			},
+			"minecraft:enchantable": {
+				"value": 32,
+				"slot": "sword"
+			},
+			"tag:minecraft:is_sword":{},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"dragonmounts:moonlight_dragonscales"
+						],
+						"repair_amount": "2160 * 0.25"
+					},
+					{
+						"items": [
+							"dragonmounts:moonlight_dragon_sword"
+						],
+						"repair_amount": "context.other->query.remaining_durability + context.other->query.max_durability * 0.05"
+					}
+				]
+			},
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 20
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 15
+					}
+				]
+			}
+		}
+	}
+}
