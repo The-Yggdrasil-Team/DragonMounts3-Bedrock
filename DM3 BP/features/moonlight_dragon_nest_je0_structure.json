@@ -1,0 +1,12 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "dragonmounts:moonlight_dragon_nest_je0_structure"
+		},
+		"structure_name": "mystructure:moonlight_dragon_nest_je0",
+		"adjustment_radius": 8,
+		"facing_direction": "random",
+		"constraints": {}
+	}
+}

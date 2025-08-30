@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "dragonmounts:jigsaw.zombie_dragon_nest_je0_structure"
+		},
+		"places_block": "dragonmounts:jigsaw.zombie_dragon_nest",
+		"enforce_placement_rules": true,
+		"enforce_survivability_rules": true,
+		"may_replace": [
+			"minecraft:water"
+		],
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:netherrack",
+				"minecraft:soul_sand",
+				"minecraft:crimson_nylium",
+				"minecraft:warped_nylium",
+				"minecraft:basalt"
+			]
+		}
+	}
+}
