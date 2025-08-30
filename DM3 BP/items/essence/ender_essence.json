@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dragonmounts:ender_essence",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "ender_essence"
+      },
+      "minecraft:display_name": {
+        "value": "Ender essence"
+      }
+    }
+  }
+}
