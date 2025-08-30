@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dragonmounts:dead_dragon_2",
+			"materials": {
+				"default":"entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/sculk_dragon/sculk_dragon"
+			},
+			"geometry": {
+				"default": "geometry.mountdragon_default3"
+			},
+			"animations": {
+				"default": "controller.animation.dead",
+				"stand": "animation.dragon.default_b",
+				"fly": "animation.dragon.subduction",
+				"dead": "animation.dragon.dead",
+				"revive":"animation.dragon_dissolve.default"
+			},
+			"scripts": {
+				"animate": [
+					"default"
+				]
+			},
+			"sound_effects": {
+				"thunder": "ambient.weather.thunder",
+				"growl": "mob.renderdragon.growl"
+			},
+			"particle_effects": {
+				"magic": "dragonmounts:magic",
+				"smoke": "dragonmounts:smoke"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}
