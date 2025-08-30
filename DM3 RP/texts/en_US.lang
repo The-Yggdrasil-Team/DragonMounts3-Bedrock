@@ -1,0 +1,662 @@
+﻿pack.name=§lDragon Mounts 3 §crevision§r	#
+pack.description=Please be sure to open the §cExperiment Option§r before loading this Addon ~	#
+
+entity.dragonmounts:ender_dragon.name=Ender Dragon	#
+action.interact.start_hatching= Start haching egg
+entity.dragonmounts:aether_dragon.name=Aether Dragon	#
+entity.dragonmounts:water_dragon.name=Water Dragon	#
+entity.dragonmounts:ice_dragon.name=Ice Dragon	#
+entity.dragonmounts:forest_dragon.name=Forest Dragon	#
+entity.dragonmounts:fire_dragon.name=Fire Dragon	#
+entity.dragonmounts:nether_dragon.name=Nether Dragon	#
+entity.dragonmounts:sculk_dragon.name=Sculk Dragon	#
+entity.dragonmounts:skeleton_dragon.name=Skeleton Dragon	#
+entity.dragonmounts:enchant_dragon.name=Enchant Dragon	#
+entity.dragonmounts:moonlight_dragon.name=Moonlight Dragon	#
+entity.dragonmounts:storm_dragon.name=Storm Dragon	#
+entity.dragonmounts:sunlight_dragon.name=Sunlight Dragon	#
+entity.dragonmounts:terra_dragon.name=Terra Dragon	#
+entity.dragonmounts:wither_dragon.name=Wither Dragon	#
+entity.dragonmounts:zombie_dragon.name=Zombie Dragon	#
+
+entity.dragonmounts:dragon_dissolve.name=Dead Dragon	#
+entity.dragonmounts:render_dragon.name=Render Dragon	#
+
+entity.dragonmounts:ender_dragon_egg.name=Ender Dragon Egg	#
+entity.dragonmounts:aether_dragon_egg.name=Aether Dragon Egg	#
+entity.dragonmounts:water_dragon_egg.name=Water Dragon Egg	#
+entity.dragonmounts:ice_dragon_egg.name=Ice Dragon Egg	#
+entity.dragonmounts:forest_dragon_egg.name=Forest Dragon Egg	#
+entity.dragonmounts:fire_dragon_egg.name=Fire Dragon Egg	#
+entity.dragonmounts:nether_dragon_egg.name=Nether Dragon Egg	#
+entity.dragonmounts:sculk_dragon_egg.name=Sculk Dragon Egg	#
+entity.dragonmounts:skeleton_dragon_egg.name=Skeleton Dragon Egg	#
+entity.dragonmounts:enchant_dragon_egg.name=Enchant Dragon Egg	#
+entity.dragonmounts:moonlight_dragon_egg.name=Moonlight Dragon Egg	#
+entity.dragonmounts:storm_dragon_egg.name=Storm Dragon Egg	#
+entity.dragonmounts:sunlight_dragon_egg.name=Sunlight Dragon Egg	#
+entity.dragonmounts:terra_dragon_egg.name=Terra Dragon Egg	#
+entity.dragonmounts:wither_dragon_egg.name=Wither Dragon Egg	#
+entity.dragonmounts:zombie_dragon_egg.name=Zombie Dragon Egg	#
+
+###########################################
+
+item.dragonmounts:diamond_shears.name=Diamond Shears	#
+
+item.dragonmounts:double_edged_axe.name=§dDouble Edged Axe§r	#
+
+item.dragonmounts:dragonarmor_iron.name=Iron Dragonarmor	#
+item.dragonmounts:dragonarmor_gold.name=Gold Dragonarmor	#
+item.dragonmounts:dragonarmor_diamond.name=Diamond Dragonarmor	#
+item.dragonmounts:dragonarmor_emerald.name=Emerald Dragonarmor	#
+
+item.dragonmounts:ender_dragonscales.name=Dragonscales §5Ender§r	#
+item.dragonmounts:aether_dragonscales.name=Dragonscales §3Aether§r	#
+item.dragonmounts:water_dragonscales.name=Dragonscales §1Water§r	#
+item.dragonmounts:ice_dragonscales.name=Dragonscales §bIce§r	#
+item.dragonmounts:forest_dragonscales.name=Dragonscales §2Forest§r	#
+item.dragonmounts:fire_dragonscales.name=Dragonscales §4Fire§r	#
+item.dragonmounts:nether_dragonscales.name=Dragonscales §4Nether§r	#
+item.dragonmounts:sculk_dragonscales.name=Dragonscales §bSculk§r	#
+item.dragonmounts:enchant_dragonscales.name=Dragonscales §dEnchant§r	#
+item.dragonmounts:moonlight_dragonscales.name=Dragonscales §1Moonlight§r	#
+item.dragonmounts:storm_dragonscales.name=Dragonscales §1Storm§r	#
+item.dragonmounts:sunlight_dragonscales.name=Dragonscales §eSunlight§r	#
+item.dragonmounts:terra_dragonscales.name=Dragonscales §6Terra§r	#
+item.dragonmounts:zombie_dragonscales.name=Dragonscales §2Zombie§r	#
+
+item.dragonmounts:ender_dragon_sword.name=Dragon Sword §5Ender§r	#
+item.dragonmounts:aether_dragon_sword.name=Dragon Sword §3Aether§r	#
+item.dragonmounts:water_dragon_sword.name=Dragon Sword §1Water§r	#
+item.dragonmounts:ice_dragon_sword.name=Dragon Sword §bIce§r	#
+item.dragonmounts:forest_dragon_sword.name=Dragon Sword §2Forest§r	#
+item.dragonmounts:fire_dragon_sword.name=Dragon Sword §4Fire§r	#
+item.dragonmounts:nether_dragon_sword.name=Dragon Sword §4Nether§r	#
+item.dragonmounts:sculk_dragon_sword.name=Dragon Sword §bSculk§r	#
+item.dragonmounts:enchant_dragon_sword.name=Dragon Sword §dEnchant§r	#
+item.dragonmounts:moonlight_dragon_sword.name=Dragon Sword §1Moonlight§r	#
+item.dragonmounts:storm_dragon_sword.name=Dragon Sword §1Storm§r	#
+item.dragonmounts:sunlight_dragon_sword.name=Dragon Sword §eSunlight§r	#
+item.dragonmounts:terra_dragon_sword.name=Dragon Sword §6Terra§r	#
+item.dragonmounts:zombie_dragon_sword.name=Dragon Sword §2Zombie§r	#
+
+item.dragonmounts:ender_dragon_axe.name=Dragon Axe §5Ender§r	#
+item.dragonmounts:aether_dragon_axe.name=Dragon Axe §3Aether§r	#
+item.dragonmounts:water_dragon_axe.name=Dragon Axe §1Water§r	#
+item.dragonmounts:ice_dragon_axe.name=Dragon Axe §bIce§r	#
+item.dragonmounts:forest_dragon_axe.name=Dragon Axe §2Forest§r	#
+item.dragonmounts:fire_dragon_axe.name=Dragon Axe §4Fire§r	#
+item.dragonmounts:nether_dragon_axe.name=Dragon Axe §4Nether§r	#
+item.dragonmounts:sculk_dragon_axe.name=Dragon Axe §bSculk§r	#
+item.dragonmounts:enchant_dragon_axe.name=Dragon Axe §dEnchant§r	#
+item.dragonmounts:moonlight_dragon_axe.name=Dragon Axe §1Moonlight§r	#
+item.dragonmounts:storm_dragon_axe.name=Dragon Axe §1Storm§r	#
+item.dragonmounts:sunlight_dragon_axe.name=Dragon Axe §eSunlight§r	#
+item.dragonmounts:terra_dragon_axe.name=Dragon Axe §6Terra§r	#
+item.dragonmounts:zombie_dragon_axe.name=Dragon Axe §2Zombie§r	#
+
+item.dragonmounts:ender_dragon_pickaxe.name=Dragon Pickaxe §5Ender§r	#
+item.dragonmounts:aether_dragon_pickaxe.name=Dragon Pickaxe §3Aether§r	#
+item.dragonmounts:water_dragon_pickaxe.name=Dragon Pickaxe §1Water§r	#
+item.dragonmounts:ice_dragon_pickaxe.name=Dragon Pickaxe §bIce§r	#
+item.dragonmounts:forest_dragon_pickaxe.name=Dragon Pickaxe §2Forest§r	#
+item.dragonmounts:fire_dragon_pickaxe.name=Dragon Pickaxe §4Fire§r	#
+item.dragonmounts:nether_dragon_pickaxe.name=Dragon Pickaxe §4Nether§r	#
+item.dragonmounts:sculk_dragon_pickaxe.name=Dragon Pickaxe §bSculk§r	#
+item.dragonmounts:enchant_dragon_pickaxe.name=Dragon Pickaxe §dEnchant§r	#
+item.dragonmounts:moonlight_dragon_pickaxe.name=Dragon Pickaxe §1Moonlight§r	#
+item.dragonmounts:storm_dragon_pickaxe.name=Dragon Pickaxe §1Storm§r	#
+item.dragonmounts:sunlight_dragon_pickaxe.name=Dragon Pickaxe §eSunlight§r	#
+item.dragonmounts:terra_dragon_pickaxe.name=Dragon Pickaxe §6Terra§r	#
+item.dragonmounts:zombie_dragon_pickaxe.name=Dragon Pickaxe §2Zombie§r	#
+
+item.dragonmounts:ender_dragon_shovel.name=Dragon Shovel §5Ender§r	#
+item.dragonmounts:aether_dragon_shovel.name=Dragon Shovel §3Aether§r	#
+item.dragonmounts:water_dragon_shovel.name=Dragon Shovel §1Water§r	#
+item.dragonmounts:ice_dragon_shovel.name=Dragon Shovel §bIce§r	#
+item.dragonmounts:forest_dragon_shovel.name=Dragon Shovel §2Forest§r	#
+item.dragonmounts:fire_dragon_shovel.name=Dragon Shovel §4Fire§r	#
+item.dragonmounts:nether_dragon_shovel.name=Dragon Shovel §4Nether§r	#
+item.dragonmounts:sculk_dragon_shovel.name=Dragon Shovel §bSculk§r	#
+item.dragonmounts:enchant_dragon_shovel.name=Dragon Shovel §dEnchant§r	#
+item.dragonmounts:moonlight_dragon_shovel.name=Dragon Shovel §1Moonlight§r	#
+item.dragonmounts:storm_dragon_shovel.name=Dragon Shovel §1Storm§r	#
+item.dragonmounts:sunlight_dragon_shovel.name=Dragon Shovel §eSunlight§r	#
+item.dragonmounts:terra_dragon_shovel.name=Dragon Shovel §6Terra§r	#
+item.dragonmounts:zombie_dragon_shovel.name=Dragon Shovel §2Zombie§r	#
+
+item.dragonmounts:ender_dragon_hoe.name=Dragon Hoe §5Ender§r	#
+item.dragonmounts:aether_dragon_hoe.name=Dragon Hoe §3Aether§r	#
+item.dragonmounts:water_dragon_hoe.name=Dragon Hoe §1Water§r	#
+item.dragonmounts:ice_dragon_hoe.name=Dragon Hoe §bIce§r	#
+item.dragonmounts:forest_dragon_hoe.name=Dragon Hoe §2Forest§r	#
+item.dragonmounts:fire_dragon_hoe.name=Dragon Hoe §4Fire§r	#
+item.dragonmounts:nether_dragon_hoe.name=Dragon Hoe §4Nether§r	#
+item.dragonmounts:sculk_dragon_hoe.name=Dragon Hoe §bSculk§r	#
+item.dragonmounts:enchant_dragon_hoe.name=Dragon Hoe §dEnchant§r	#
+item.dragonmounts:moonlight_dragon_hoe.name=Dragon Hoe §1Moonlight§r	#
+item.dragonmounts:storm_dragon_hoe.name=Dragon Hoe §1Storm§r	#
+item.dragonmounts:sunlight_dragon_hoe.name=Dragon Hoe §eSunlight§r	#
+item.dragonmounts:terra_dragon_hoe.name=Dragon Hoe §6Terra§r	#
+item.dragonmounts:zombie_dragon_hoe.name=Dragon Hoe §2Zombie§r	#
+
+item.dragonmounts:aether_dragonscale_helmet.name=Dragonscale Helmet §3Aether§r	#
+item.dragonmounts:enchant_dragonscale_helmet.name=Dragonscale Helmet §dEnchant§r	#
+item.dragonmounts:ender_dragonscale_helmet.name=Dragonscale Helmet §5Ender§r	#
+item.dragonmounts:fire_dragonscale_helmet.name=Dragonscale Helmet §4Fire§r	#
+item.dragonmounts:forest_dragonscale_helmet.name=Dragonscale Helmet §2Forest§r	#
+item.dragonmounts:ice_dragonscale_helmet.name=Dragonscale Helmet §bIce§r	#
+item.dragonmounts:moonlight_dragonscale_helmet.name=Dragonscale Helmet §1Moonlight§r	#
+item.dragonmounts:nether_dragonscale_helmet.name=Dragonscale Helmet §4Nether§r	#
+item.dragonmounts:sculk_dragonscale_helmet.name=Dragonscale Helmet §bSculk§r	#
+item.dragonmounts:storm_dragonscale_helmet.name=Dragonscale Helmet §1Storm§r	#
+item.dragonmounts:sunlight_dragonscale_helmet.name=Dragonscale Helmet §eSunlight§r	#
+item.dragonmounts:terra_dragonscale_helmet.name=Dragonscale Helmet §6Terra§r	#
+item.dragonmounts:water_dragonscale_helmet.name=Dragonscale Helmet §1Water§r	#
+item.dragonmounts:zombie_dragonscale_helmet.name=Dragonscale Helmet §2Zombie§r	#
+
+item.dragonmounts:aether_dragonscale_chestplate.name=Dragonscale Chestplate §3Aether§r	#
+item.dragonmounts:enchant_dragonscale_chestplate.name=Dragonscale Chestplate §dEnchant§r	#
+item.dragonmounts:ender_dragonscale_chestplate.name=Dragonscale Chestplate §5Ender§r	#
+item.dragonmounts:fire_dragonscale_chestplate.name=Dragonscale Chestplate §4Fire§r	#
+item.dragonmounts:forest_dragonscale_chestplate.name=Dragonscale Chestplate §2Forest§r	#
+item.dragonmounts:ice_dragonscale_chestplate.name=Dragonscale Chestplate §bIce§r	#
+item.dragonmounts:moonlight_dragonscale_chestplate.name=Dragonscale Chestplate §1Moonlight§r	#
+item.dragonmounts:nether_dragonscale_chestplate.name=Dragonscale Chestplate §4Nether§r	#
+item.dragonmounts:sculk_dragonscale_chestplate.name=Dragonscale Chestplate §bSculk§r	#
+item.dragonmounts:storm_dragonscale_chestplate.name=Dragonscale Chestplate §1Storm§r	#
+item.dragonmounts:sunlight_dragonscale_chestplate.name=Dragonscale Chestplate §eSunlight§r	#
+item.dragonmounts:terra_dragonscale_chestplate.name=Dragonscale Chestplate §6Terra§r	#
+item.dragonmounts:water_dragonscale_chestplate.name=Dragonscale Chestplate §1Water§r	#
+item.dragonmounts:zombie_dragonscale_chestplate.name=Dragonscale Chestplate §2Zombie§r	#
+
+item.dragonmounts:aether_dragonscale_leggings.name=Dragonscale Leggings §3Aether§r	#
+item.dragonmounts:enchant_dragonscale_leggings.name=Dragonscale Leggings §dEnchant§r	#
+item.dragonmounts:ender_dragonscale_leggings.name=Dragonscale Leggings §5Ender§r	#
+item.dragonmounts:fire_dragonscale_leggings.name=Dragonscale Leggings §4Fire§r	#
+item.dragonmounts:forest_dragonscale_leggings.name=Dragonscale Leggings §2Forest§r	#
+item.dragonmounts:ice_dragonscale_leggings.name=Dragonscale Leggings §bIce§r	#
+item.dragonmounts:moonlight_dragonscale_leggings.name=Dragonscale Leggings §1Moonlight§r	#
+item.dragonmounts:nether_dragonscale_leggings.name=Dragonscale Leggings §4Nether§r	#
+item.dragonmounts:sculk_dragonscale_leggings.name=Dragonscale Leggings §bSculk§r	#
+item.dragonmounts:storm_dragonscale_leggings.name=Dragonscale Leggings §1Storm§r	#
+item.dragonmounts:sunlight_dragonscale_leggings.name=Dragonscale Leggings §eSunlight§r	#
+item.dragonmounts:terra_dragonscale_leggings.name=Dragonscale Leggings §6Terra§r	#
+item.dragonmounts:water_dragonscale_leggings.name=Dragonscale Leggings §1Water§r	#
+item.dragonmounts:zombie_dragonscale_leggings.name=Dragonscale Leggings §2Zombie§r	#
+
+item.dragonmounts:aether_dragonscale_boots.name=Dragonscale Boots §3Aether§r	#
+item.dragonmounts:enchant_dragonscale_boots.name=Dragonscale Boots §dEnchant§r	#
+item.dragonmounts:ender_dragonscale_boots.name=Dragonscale Boots §5Ender§r	#
+item.dragonmounts:fire_dragonscale_boots.name=Dragonscale Boots §4Fire§r	#
+item.dragonmounts:forest_dragonscale_boots.name=Dragonscale Boots §2Forest§r	#
+item.dragonmounts:ice_dragonscale_boots.name=Dragonscale Boots §bIce§r	#
+item.dragonmounts:moonlight_dragonscale_boots.name=Dragonscale Boots §1Moonlight§r	#
+item.dragonmounts:nether_dragonscale_boots.name=Dragonscale Boots §4Nether§r	#
+item.dragonmounts:sculk_dragonscale_boots.name=Dragonscale Boots §bSculk§r	#
+item.dragonmounts:storm_dragonscale_boots.name=Dragonscale Boots §1Storm§r	#
+item.dragonmounts:sunlight_dragonscale_boots.name=Dragonscale Boots §eSunlight§r	#
+item.dragonmounts:terra_dragonscale_boots.name=Dragonscale Boots §6Terra§r	#
+item.dragonmounts:water_dragonscale_boots.name=Dragonscale Boots §1Water§r	#
+item.dragonmounts:zombie_dragonscale_boots.name=Dragonscale Boots §2Zombie§r	#
+
+item.spawn_egg.entity.dragonmounts:ender_dragon.name=Spawn Dragon §5Ender§r	#
+item.spawn_egg.entity.dragonmounts:aether_dragon.name=Spawn Dragon §3Aether§r	#
+item.spawn_egg.entity.dragonmounts:water_dragon.name=Spawn Dragon §1Water§r	#
+item.spawn_egg.entity.dragonmounts:ice_dragon.name=Spawn Dragon §bIce§r	#
+item.spawn_egg.entity.dragonmounts:forest_dragon.name=Spawn Dragon §2Forest§r	#
+item.spawn_egg.entity.dragonmounts:fire_dragon.name=Spawn Dragon §4Fire§r	#
+item.spawn_egg.entity.dragonmounts:nether_dragon.name=Spawn Dragon §4Nether§r	#
+item.spawn_egg.entity.dragonmounts:sculk_dragon.name=Spawn Dragon §bSculk§r	#
+item.spawn_egg.entity.dragonmounts:skeleton_dragon.name=Spawn Dragon §fSkeleton§r	#
+item.spawn_egg.entity.dragonmounts:enchant_dragon.name=Spawn Dragon §dEnchant§r	#
+item.spawn_egg.entity.dragonmounts:moonlight_dragon.name=Spawn Dragon §1Moonlight§r	#
+item.spawn_egg.entity.dragonmounts:storm_dragon.name=Spawn Dragon §1Storm§r	#
+item.spawn_egg.entity.dragonmounts:sunlight_dragon.name=Spawn Dragon §eSunlight§r	#
+item.spawn_egg.entity.dragonmounts:terra_dragon.name=Spawn Dragon §6Terra§r	#
+item.spawn_egg.entity.dragonmounts:wither_dragon.name=Spawn Dragon §8Wither§r	#
+item.spawn_egg.entity.dragonmounts:zombie_dragon.name=Spawn Dragon §2Zombie§r	#
+
+item.spawn_egg.entity.dragonmounts:ender_dragon_egg.name=Spawn Ender Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:aether_dragon_egg.name=Spawn Aether Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:water_dragon_egg.name=Spawn Water Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:ice_dragon_egg.name=Spawn Ice Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:forest_dragon_egg.name=Spawn Forest Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:fire_dragon_egg.name=Spawn Fire Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:nether_dragon_egg.name=Spawn Nether Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:sculk_dragon_egg.name=Spawn Sculk Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:skeleton_dragon_egg.name=Spawn Skeleton Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:enchant_dragon_egg.name=Spawn Enchant Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:moonlight_dragon_egg.name=Spawn Moonlight Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:storm_dragon_egg.name=Spawn Storm Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:sunlight_dragon_egg.name=Spawn Sunlight Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:terra_dragon_egg.name=Spawn Terra Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:wither_dragon_egg.name=Spawn Wither Dragon Egg	#
+item.spawn_egg.entity.dragonmounts:zombie_dragon_egg.name=Spawn Zombie Dragon Egg	#
+
+item.dragonmounts:ender_dragon_egg_spawn.name=Ender Dragon Egg	#
+item.dragonmounts:aether_dragon_egg_spawn.name=Aether Dragon Egg	#
+item.dragonmounts:water_dragon_egg_spawn.name=Water Dragon Egg	#
+item.dragonmounts:ice_dragon_egg_spawn.name=Ice Dragon Egg	#
+item.dragonmounts:forest_dragon_egg_spawn.name=Forest Dragon Egg	#
+item.dragonmounts:fire_dragon_egg_spawn.name=Fire Dragon Egg	#
+item.dragonmounts:nether_dragon_egg_spawn.name=Nether Dragon Egg	#
+item.dragonmounts:sculk_dragon_egg_spawn.name=Sculk Dragon Egg	#
+item.dragonmounts:skeleton_dragon_egg_spawn.name=Skeleton Dragon Egg	#
+item.dragonmounts:enchant_dragon_egg_spawn.name=Enchant Dragon Egg	#
+item.dragonmounts:moonlight_dragon_egg_spawn.name=Moonlight Dragon Egg	#
+item.dragonmounts:storm_dragon_egg_spawn.name=Storm Dragon Egg	#
+item.dragonmounts:sunlight_dragon_egg_spawn.name=Sunlight Dragon Egg	#
+item.dragonmounts:terra_dragon_egg_spawn.name=Terra Dragon Egg	#
+item.dragonmounts:wither_dragon_egg_spawn.name=Wither Dragon Egg	#
+item.dragonmounts:zombie_dragon_egg_spawn.name=Zombie Dragon Egg	#
+
+tile.dragonmounts:dragon_nest_block.name=Nest Block	#
+tile.dragonmounts:aether_dragon_egg.name=§3Aether§r Dragon Egg	#
+tile.dragonmounts:enchant_dragon_egg.name=§dEnchant§r Dragon Egg	#
+tile.dragonmounts:ender_dragon_egg.name=§5Ender§r Dragon Egg	#
+tile.dragonmounts:fire_dragon_egg.name=§4Fire§r Dragon Egg	#
+tile.dragonmounts:forest_dragon_egg.name=§2Forest§r Dragon Egg	#
+tile.dragonmounts:ice_dragon_egg.name=§bIce§r Dragon Egg	#
+tile.dragonmounts:moonlight_dragon_egg.name=§1Moonlight§r Dragon Egg	#
+tile.dragonmounts:nether_dragon_egg.name=§4Nether§r Dragon Egg	#
+tile.dragonmounts:sculk_dragon_egg.name=§bSculk§r Dragon Egg	#
+tile.dragonmounts:skeleton_dragon_egg.name=§fSkeleton§r Dragon Egg	#
+tile.dragonmounts:storm_dragon_egg.name=§1Storm§r Dragon Egg	#
+tile.dragonmounts:sunlight_dragon_egg.name=§eSunlight§r Dragon Egg	#
+tile.dragonmounts:terra_dragon_egg.name=§6Terra§r Dragon Egg	#
+tile.dragonmounts:water_dragon_egg.name=§1Water§r Dragon Egg	#
+tile.dragonmounts:wither_dragon_egg.name=§8Wither§r Dragon Egg	#
+tile.dragonmounts:zombie_dragon_egg.name=§2Zombie§r Dragon Egg	#
+
+###########################################
+
+action.hint.exit.unknown=Press sneak to dismount	#
+action.hint.exit.dragonmounts:ender_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:aether_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:water_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:ice_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:forest_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:fire_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:nether_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:sculk_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:skeleton_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:enchant_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:moonlight_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:storm_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:sunlight_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:terra_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:wither_dragon=Press sneak to dismount	#
+action.hint.exit.dragonmounts:zombie_dragon=Press sneak to dismount	#
+
+###########################################
+
+action.interact.hatch_egg=Start Hatching
+action.interact.fasthatching.dragonmounts=Fast Hatch	#
+action.interact.chested.dragonmounts=Equip	#
+action.interact.breath.dragonmounts=Collect	#
+action.interact.ride.dragonmounts=Ride	#
+action.interact.speed.dragonmounts=Up	#
+action.interact.shear.dragonmounts=Shear	#
+action.interact.transform_block_dragon_eggs.dragonmounts=Back to Block	#
+
+###########################################
+
+settings.group.dragonmounts_htp.label=§oDragon Mounts 3§r Mod Introduction	#
+
+
+
+settings.dragonmounts.about.button=About	#
+settings.dragonmounts.update.button=Mod Update Log	#
+settings.dragonmounts.description.button=Mod Overview	#
+settings.dragonmounts.get_eggs.button=Dragon Eggs Obtain	#
+settings.dragonmounts.egg_hatch.button=Dragon Eggs Hatching and Transformation	#
+settings.dragonmounts.dragon_baby.button=Baby Dragons	#
+settings.dragonmounts.dragon_adult.button=Dragons	#
+settings.dragonmounts.fly_con.button=Fly and Control	#
+settings.dragonmounts.crafting_queries.button=Recipe Table Query	#
+settings.dragonmounts.become_a_contributor.button=Become a Contributor	#
+settings.dragonmounts.violators.button=Violators	#
+
+
+
+settings.dragonmounts.about.title=About	#
+settings.dragonmounts.update.title=Mod Update Log	#
+settings.dragonmounts.description.title=Mod Overview	#
+settings.dragonmounts.get_eggs.title=Dragon Egg Obtain	#
+settings.dragonmounts.egg_hatch.title=Dragon Egg Hatching and Transformation	#
+settings.dragonmounts.dragon_baby.title=Baby Dragon	#
+settings.dragonmounts.dragon_adult.title=Dragon	#
+settings.dragonmounts.fly_con.title=Fly and Control	#
+settings.dragonmounts.crafting_queries.title=Inquire	#
+settings.dragonmounts.become_a_contributor.title=How to Become a Contributor	#
+settings.dragonmounts.violators.title=Public List of Violators	#
+
+
+
+settings.dragonmounts.describes_text.header.information0=Mod Owner	#
+settings.dragonmounts.describes_text.developer0=· §e@Lintha§r	#
+settings.dragonmounts.describes_text.header.information1=Information	#
+settings.dragonmounts.describes_text.header.information2=Statement	#
+settings.dragonmounts.describes_text.header.information3=Thanks	#
+
+
+settings.dragonmounts.describes_text.header.update2=Dragon Mounts Version: §bRelease 1.4.23§r	#
+settings.dragonmounts.describes_text.header.update1=Dragon Mounts Version: §bPreview 1.4.12§r	#
+settings.dragonmounts.describes_text.header.update0=Dragon Mounts Version: §ePreview 1.3.24§r	#
+
+
+settings.dragonmounts.describes_text.header.description0=Mod Overview	#
+settings.dragonmounts.describes_text.header.description1=Precautions	#
+settings.dragonmounts.describes_text.header.description2=Compatible Mods	#
+
+
+settings.dragonmounts.describes_text.header.get_eggs0=Survival Mode Dragon Egg Acquisition Method	#
+settings.dragonmounts.describes_text.header.get_eggs1=How to Place the Dragon Egg in Survival Mode	#
+
+
+settings.dragonmounts.describes_text.header.egg_hatch0=Dragon Egg Hatching	#
+settings.dragonmounts.describes_text.header.egg_hatch1=Dragon Egg Breeds Variation	#
+
+
+settings.dragonmounts.describes_text.header.dragon_baby0=growing up	#
+
+
+settings.dragonmounts.describes_text.header.dragon_adult0=Domestication and feeding	#
+settings.dragonmounts.describes_text.header.dragon_adult1=Dragon equipment	#
+settings.dragonmounts.describes_text.header.dragon_adult2=Standby state	#
+settings.dragonmounts.describes_text.header.dragon_adult3=The acquisition of dragon scales and the collection of dragon's breath	#
+settings.dragonmounts.describes_text.header.dragon_adult4=Attack event	#
+
+
+settings.dragonmounts.describes_text.header.fly_con0=Fly	#
+settings.dragonmounts.describes_text.header.fly_con1=Fly control	#
+settings.dragonmounts.describes_text.header.fly_con2=Jump Fly control	#
+
+
+settings.dragonmounts.describes_text.header.crafting_queries0=Recipes	#
+
+
+settings.dragonmounts.describes_text.header.become_a_contributor0=Dragon Nests Construction Contribution	#
+
+
+settings.dragonmounts.describes_text.header.violators0=About "Qing#" (not the real screen name) work illegal misappropriation incident	#
+
+
+
+settings.dragonmounts.describes_text.information_email=· Email: §elintha437@gmail.com§r	#
+settings.dragonmounts.describes_text.information13=· Dragon Mounts 3 Official Discord Server: §adiscord.gg/RKHpyRr6yx§r
+settings.dragonmounts.describes_text.information0=· Dragon Mounts 3 Official QQ First group Number: §a1142349064§r	#
+settings.dragonmounts.describes_text.information1=· Dragon Mounts 3 Official QQ Second group Number: §a762040407§r	#
+settings.dragonmounts.describes_text.information2=· Dragon Mounts 3 Official QQ Third group Number: §a675072475§r	#
+settings.dragonmounts.describes_text.information3=· The Author QQ Fans group Number: §a344086234§r	#
+settings.dragonmounts.describes_text.information4=· BiliBili UID: §e319265256§r  ID: §eLintha暮辰§r	#
+settings.dragonmounts.describes_text.information5=· Twitter: §e@liuny233§r	#
+settings.dragonmounts.describes_text.information14=· Youtube: §e@Lintha§r	#
+
+settings.dragonmounts.describes_text.information6=· The work is released under the CC BY-NC-ND 4.0 license.	#
+settings.dragonmounts.describes_text.information7=· For non-commercial reprints, please mark the owner's signature: Lintha	#
+
+settings.dragonmounts.describes_text.information8=· Former Owner: §e@TheRPGAdventurer§r	#
+settings.dragonmounts.describes_text.information9=· Development Assistants: §e@Ender Dragon§r §e@上官汐§r §e@2190303755§r	#
+settings.dragonmounts.describes_text.information10=· Art Production Staff: §e@Alex45§r §e@百里屠苏大帝§r §e@Comerciante§r	#
+settings.dragonmounts.describes_text.information11=· 	#
+settings.dragonmounts.describes_text.information12=· Third-party Dragon Nest Contributors: §e@Dofes§r §e@青水冷心§r §e@心陌落§r	#
+
+
+##1.4.20/21/22/23##
+settings.dragonmounts.describes_text.update1.4.22_0=**Release Version Update Log**	#
+
+settings.dragonmounts.describes_text.update1.4.22_1=Dragon Mounts - 1.4.23 (Bedrock)	#
+
+settings.dragonmounts.describes_text.update1.4.22_2=Posted: September 10, 2022 (UTC)	#
+
+settings.dragonmounts.describes_text.update1.4.22_3=-Where is my Forest Dragon Egg?  -See it? That is dragon egg with the bright blue particles. Yes, the egg has merged with the sculk vegitation from the dangerous ancient city!	#
+
+settings.dragonmounts.describes_text.update1.4.22_4=While you're enjoying weekend afternoon tea, we bring you the first Release Version of the Dragon Mounts Mod! This marks the completion of the initial synchronization of the Dragon Mounts Mod Bedrock Edition with Java Edition. As always, we appreciate all your help and input, please report any new bugs and leave your feedback by sending them to §alintha437@gmail.com§r or via the corresponding channel on Discord §adiscord.gg/RKHpyRr6yx§r.	#
+
+settings.dragonmounts.describes_text.update1.4.22_5=**New Features and Changes: **	#
+settings.dragonmounts.describes_text.update1.4.22_6=· Nest Blocks	#
+settings.dragonmounts.describes_text.update1.4.22_7=  · Nest Blocks will be generated as part of some dragon nest structures	#
+settings.dragonmounts.describes_text.update1.4.22_8=  · In Java Edition, the Nest Block is a mod block officially recognized by the Dragon Mounts Mod to prevent the accidental conversion of dragon eggs into other breeds during the hatching process, although the current Bedrock Edition Dragon Mounts Mod has not yet added the Related features of dragon egg environmental transformation breeds	#
+
+settings.dragonmounts.describes_text.update1.4.22_9=· Dragon Eggs	#
+settings.dragonmounts.describes_text.update1.4.22_10=  · Hatching dragon eggs now determine whether entities can pass through them based on the presence of the model blocks	#
+settings.dragonmounts.describes_text.update1.4.22_11=  · Added the way to get Sculk Dragon Eggs, now you can get Sculk Dragon Eggs in the hatching state by inducing the Warden to infect the Forest Dragon Egg in the hatching state	#
+settings.dragonmounts.describes_text.update1.4.22_12=  · Added an interaction method, now you can interact with hatching dragon eggs by "Sneaking + Right Click" to convert it back to the block state dragon egg	#
+settings.dragonmounts.describes_text.update1.4.22_13=  · Added dragon egg activation hatching sound	#
+settings.dragonmounts.describes_text.update1.4.22_14=  · Eggs in hatching state are now highlighted instead of flashing red when damaged	#
+settings.dragonmounts.describes_text.update1.4.22_15=  · Eggs in hatching state will no longer be knockback when attacked	#
+settings.dragonmounts.describes_text.update1.4.22_16=  · Block dragon egg mining time changed to instant mining to synchronize with Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_17=  · Hatching dragon eggs no longer have a mob-like death animation when completely destroyed by an attack, to synchronize with Java Edition	#
+
+settings.dragonmounts.describes_text.update1.4.22_18=· Dragons	#
+settings.dragonmounts.describes_text.update1.4.22_19=  · Made detailed changes to dragon animation to make it more physical	#
+settings.dragonmounts.describes_text.update1.4.22_20=  · Adjusted the dragon's sound so it's not too loud	#
+settings.dragonmounts.describes_text.update1.4.22_21=  · Implemented new death animations and sound effects to synchronize Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_22=  · Dragons no longer drop experience and dragon scales when they die, providing a reasonable setting for the addition of dragon essences in the future	#
+settings.dragonmounts.describes_text.update1.4.22_23=  · Flight control system optimization	#
+settings.dragonmounts.describes_text.update1.4.22_24=  · Use new glide sound effects when gliding for dragons	#
+settings.dragonmounts.describes_text.update1.4.22_25=  · Baby dragons can now follow adult dragons to synchronize Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_26=  · When the player is riding, if they are sitting, they will switch to standing to synchronize Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_27=  · Dragons will stand up if it is sitting down when injured, and will fight back if the attacker is not the owner of the dragon to synchronize Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_28=  · Added different additional effects for dragons to synchronize Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_29=  · Some dragons use different variant models to synchronize Java Edition	#
+
+settings.dragonmounts.describes_text.update1.4.22_30=· Dragon Nests	#
+settings.dragonmounts.describes_text.update1.4.22_31=  · Ported Dragon Nests that was not ported in the original Java Edition to synchronize Java Edition	#
+settings.dragonmounts.describes_text.update1.4.22_32=  · Zombie Dragon Nests changed from Overworld spawning to Nether spawning	#
+settings.dragonmounts.describes_text.update1.4.22_33=  · Wither Dragon Nests is now properly removed	#
+settings.dragonmounts.describes_text.update1.4.22_34=  · Dragon Nests spawn rate adjusted to make it spawn more balanced	#
+
+settings.dragonmounts.describes_text.update1.4.22_35=· Dragonscale Equipment	#
+settings.dragonmounts.describes_text.update1.4.22_36=  · The additional breeds of the Ender Dragon Scale Armors are increased from the original only resistance by 3 levels, to the strength is increased by 1 level	#
+settings.dragonmounts.describes_text.update1.4.22_37=  · The additional breeds of the Zombie Dragon Scale Armors have been increased from the original strength level 1 to strength level 3	#
+settings.dragonmounts.describes_text.update1.4.22_38=  · The additional breeds of the Enchant Dragon Scale Armors are increased from the original jump boost level 2 to jump level 6	#
+settings.dragonmounts.describes_text.update1.4.22_39=  · The additional breeds of the Ice Dragon Scale Armors have been increased from the original 5*5*5 area of effect to 9*9*9 area of effect	#
+
+settings.dragonmounts.describes_text.update1.4.22_40=· UI	#
+settings.dragonmounts.describes_text.update1.4.22_41=  · Added entry "Violators" to the built-in intro UI to record people who severely violate mod community rules	#
+	
+settings.dragonmounts.describes_text.update1.4.22_42=**Known Issues: **	#
+settings.dragonmounts.describes_text.update1.4.22_46=· When a dragon is in heat and tries to breed, it still fails to spawn a dragon egg	#
+
+settings.dragonmounts.describes_text.update1.4.22_47=**Features and Bug Fixes: **	#
+settings.dragonmounts.describes_text.update1.4.22_48=· Mobs	#
+settings.dragonmounts.describes_text.update1.4.22_49=  · The dragon visual model is no longer unexpectedly hidden when the dragon collision box is out of the player's field of view	#
+settings.dragonmounts.describes_text.update1.4.22_50=  · Fixed an issue where dragons and hatching dragon eggs disappeared unexpectedly	#
+settings.dragonmounts.describes_text.update1.4.22_51=  · Baby dragons no longer accidentally ride adult dragons	#
+settings.dragonmounts.describes_text.update1.4.22_52=  · Fixed an issue that exploded unexpectedly when firing fireballs and dragon breaths while riding a dragon	#
+settings.dragonmounts.describes_text.update1.4.22_53=  · Fixed incorrect appearance of dragons when equipped with saddles, armors, chests	#
+settings.dragonmounts.describes_text.update1.4.22_54=  · Fixed a problem with incorrect particle offset when some breeds dragons were equipped with saddles	#
+settings.dragonmounts.describes_text.update1.4.23_0=  · Fixed an issue that some breeds dragon translucent highlight rendering was incorrectly culled	#
+
+settings.dragonmounts.describes_text.update1.4.22_55=· Items	#
+settings.dragonmounts.describes_text.update1.4.22_56=  · Diamond scissors are now correctly registered in the creative mode menu bar corresponding to the equipment category	#
+settings.dragonmounts.describes_text.update1.4.22_57=  · The issue where the dragon scale tools could not speed up mining in some versions of the game version 1.19 has been fixed	#
+settings.dragonmounts.describes_text.update1.4.22_58=  · Fixed an issue that the Dragon Scale Tools did not work on block mining for game version 1.17 and above updates	#
+
+settings.dragonmounts.describes_text.update1.4.22_59=· Structures	#
+settings.dragonmounts.describes_text.update1.4.22_60=  · Wither Dragon Nests is now correctly removed	#
+
+settings.dragonmounts.describes_text.update1.4.22_61=· Texts	#
+settings.dragonmounts.describes_text.update1.4.22_62=  · Fixed some English text translation issues	#
+
+settings.dragonmounts.describes_text.update1.4.22_63=· Stability and Performance	#
+settings.dragonmounts.describes_text.update1.4.22_64=  · Compatibility improvement, replacing most of the features implemented by "player.json", this mod can now be used in parallel with most other mods	#
+settings.dragonmounts.describes_text.update1.4.22_65=  · Fixed some performance issues	#
+##########
+##1.4.12##
+settings.dragonmounts.describes_text.update1.4.12_0=Dragon Mounts Bedrock Edition V1.4.x Preview Version Update (Dragon Mounts V1.4.12 International Edition):	#
+ 
+settings.dragonmounts.describes_text.update1.4.12_1=**· CONTENT UPDATE:**	#
+settings.dragonmounts.describes_text.update1.4.12_2=1. The Sculk Dragon Egg has been added, but the Sculk Dragon and its related items have not been added yet. As the Sculk Dragon AI is still under development, we will not accept any feedback about Sculk Dragon;	#
+settings.dragonmounts.describes_text.update1.4.12_3=2. Corrected translation: "以太" is corrected to "天境", and "地狱" is corrected to "下界";	#
+settings.dragonmounts.describes_text.update1.4.12_4=3. Now the block dragon egg is correctly registered in the menu bar of creative mode;	#
+settings.dragonmounts.describes_text.update1.4.12_5=4. Removed the registration of the entity dragon egg in the menu bar of creative mode;	#
+settings.dragonmounts.describes_text.update1.4.12_6=5. Implemented some Java Edition Dragon Nests;	#
+settings.dragonmounts.describes_text.update1.4.12_7=6. Removed Storm Dragon Nests and Wither Dragon Nests;	#
+settings.dragonmounts.describes_text.update1.4.12_8=7. The refresh rate of Dragon's Nest has been updated to make it consistent with the Java Edition;	#
+settings.dragonmounts.describes_text.update1.4.12_9=8. The treasure chest in the Dragon's Nest has been updated to make it consistent with the Java Edition;	#
+settings.dragonmounts.describes_text.update1.4.12_10=9. Dragons can now trample through vegetation;	#
+settings.dragonmounts.describes_text.update1.4.12_11=10. Dragon animations are now more physical;	#
+settings.dragonmounts.describes_text.update1.4.12_12=11. Added different special effects given to most dragon scale armors after wearing a full set of the same breed;	#
+settings.dragonmounts.describes_text.update1.4.12_13=12. The height at which the dragon determines that the player stumbles and falls has been changed from 8 to 12, and the detection range of the player has been changed from 16 to 64 in radius;	#
+settings.dragonmounts.describes_text.update1.4.12_14=13. Dragon's AI has been comprehensively optimized;	#
+settings.dragonmounts.describes_text.update1.4.12_15=14. Change the sound of dragon eating food to synchronize with Java Edition;	#
+settings.dragonmounts.describes_text.update1.4.12_16=15. Change the jump range of right-clicking dragon eggs to activate hatching to synchronize with Java Edition;	#
+settings.dragonmounts.describes_text.update1.4.12_17=16. Removed the dragon bossbar to make reasonable preparations for the later update.	#
+ 
+settings.dragonmounts.describes_text.update1.4.12_18=**· BUG FIXES:**	#
+settings.dragonmounts.describes_text.update1.4.12_19=1. The incorrect breed issue of the enchanting dragon scale suit has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_20=2. The issue that the cube dragon egg is displayed incorrectly in the inventory has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_21=3. The issue that Fire Dragon Sword and Terra Dragon Sword were not successfully registered in the game has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_22=4. In English translation, the wrong translation of "Storm" property to "Moonlight" property has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_23=5. The issue of incorrect walking and jumping AI when the dragon walks on a block without a physical hitbox has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_24=6. The issue that the loot in the Dragon's Nest treasure chest cannot be randomly generated has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_25=7. The issue that the dragon can't make the walking sound normally has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_26=8. The issue that the dragon misjudged the player's footfall under certain circumstances has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_27=9. The issue that the fire dragon spawned egg was incorrectly displayed as the water dragon spawned egg icon in the inventory has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_28=10. The issue that dragon breath particles are incorrectly affected by ambient lighting has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_29=11. The issue that the dragon's nest is incorrectly generated in a group that does not belong to its own group has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_30=12. The serious performance issue when loading this mod in Bedrock Edition 1.18.30 and above has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_31=13. The issue that the player incorrectly opens his wings and enters the flying state when riding a dragon to go down a block high has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_32=14. The issue that the player was mistakenly judged to fall when standing on the lower half of the stairs has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_33=15. The issue that the enchant dragon egg hatching particles appeared red particles by mistake has been fixed;	#
+settings.dragonmounts.describes_text.update1.4.12_34=16. The issue where the animation of the dragon's melee attack could not be played properly has been fixed.	#
+##########
+##1.3.24##
+settings.dragonmounts.describes_text.update1.3.24_0=* CONTENT UPDATE	#
+settings.dragonmounts.describes_text.update1.3.24_1=-Dragon animation is more physical	#
+settings.dragonmounts.describes_text.update1.3.24_2=-Optimized performance issues caused by multiple dragons	#
+settings.dragonmounts.describes_text.update1.3.24_3=-The damage taken by dragons while cutting dragon scales is now random	#
+settings.dragonmounts.describes_text.update1.3.24_4=-Add block dragon eggs and activate the hatching by Right-Clicking block dragon eggs	#
+settings.dragonmounts.describes_text.update1.3.24_5=-Players can no longer interact with dragons while riding them	#
+settings.dragonmounts.describes_text.update1.3.24_6=-Added a full set of dragon scale equipment and tools, completed features except bows	#
+settings.dragonmounts.describes_text.update1.3.24_7=-Added dragon nest and used dragon eggs in dragon nest as a new way to obtain dragon eggs	#
+settings.dragonmounts.describes_text.update1.3.24_8=-Added command: /function give_blockegg (get all block eggs)	#
+settings.dragonmounts.describes_text.update1.3.24_9=-Diamond scissors now have more features that vanilla scissors have (still cannot be used to shear wool)	#
+settings.dragonmounts.describes_text.update1.3.24_10=-When the player falls from a height of eight blocks or more, a tamed dragon within a radius of 16 blocks will rescue the fallen player	#
+
+settings.dragonmounts.describes_text.update1.3.24_11=*BUG FIXES	#
+settings.dragonmounts.describes_text.update1.3.24_12=-Dragon eggs mutated by lightning strikes can hatch normally now	#
+settings.dragonmounts.describes_text.update1.3.24_13=-Fixed an issue where tamed dragons would fight back at their owners	#
+settings.dragonmounts.describes_text.update1.3.24_14=-Untamed dragons can no longer be blocked by 1 block tall blocks	#
+settings.dragonmounts.describes_text.update1.3.24_15=-Dragons no longer take damage from dragon breath and falls	#
+##########
+
+
+settings.dragonmounts.describes_text.description0=· Type: Fun mod	#
+settings.dragonmounts.describes_text.description1=· Role: Survival support, gameplay expansion	#
+settings.dragonmounts.describes_text.description2=· Introduction: Dragon Mounts 3 Official Bedrock Edition Mods. In this mod, you can hatch and domesticate your dragons, and you can obtain and collect unique equipped weapons in the mod. Ride the dragon, put on the saddle, and overlook your world!	#
+
+settings.dragonmounts.describes_text.description3=· In survival mode, if you want to collect the cube dragon eggs that are generated in the dragon’s nest, you only need to dig directly at the dragon eggs. If you accidentally activate its hatching, you can use the method of "Sneaking + Right Click" to change the dragon egg back to the block state and continue to dig.	#
+settings.dragonmounts.describes_text.description4=· The cube dragon egg used in the mod will not hatch automatically. You need to Right-Click on the cube dragon egg (mobile phone operation: click on the dragon egg), and see the smoke particles coming out of the dragon egg to prove that the dragon egg has hatched	#
+settings.dragonmounts.describes_text.description5=· Entity dragon eggs will naturally hatch quietly by themselves when they are not catalyzed. The whole process needs to wait for 40 minutes and then there will be damage particles that shake and carry the dragon egg, which means that the dragon egg has begun to break the shell. At this time, you only need to wait for one minute to see a small dragon less than one meter in length.	#
+settings.dragonmounts.describes_text.description6=· Baby dragons will grow quietly even if they don’t keep feeding the fish. The whole process of natural growth takes four hours.	#
+settings.dragonmounts.describes_text.description7=· If the Dragon Nest can be generated when using this mod for the first time, but the newly explored block will no longer continue to generate the Dragon Nest after exiting the game and re·entering, this is an official issue. §e Solution: First exit the archive and then uninstall the mod, then reload the mod and then enter the game, and this operation must be performed every time you exit the archive	#
+settings.dragonmounts.describes_text.description8=· If there is a issue that the dragon can ride and take off in the first archive, but cannot take off after exiting the archive, it is an official issue. §e Solution: Take down the dragon's saddle and exit the game, then enter the game and reinstall the saddle on the dragon.	#
+settings.dragonmounts.describes_text.description9=· The dragon can only be ordered to sit down by sneaking after being tamed in adulthood.	#
+
+settings.dragonmounts.describes_text.description10=· Please make sure to open all experimental options when you use it.	#
+# settings.dragonmounts.describes_text.description11=· Please make sure that it is not used together with other mods to avoid mod conflicts. If you need to use it with other mods, please put this mod resource pack and behavior pack at the top level.	#
+settings.dragonmounts.describes_text.description12=· 	#
+settings.dragonmounts.describes_text.description13=· 	#
+settings.dragonmounts.describes_text.description14=· 	#
+
+
+settings.dragonmounts.describes_text.get_eggs0=You can complete the acquisition of the dragon egg cube by searching for the dragon nest and collecting the cube dragon eggs generated in the dragon nest	#
+settings.dragonmounts.describes_text.get_eggs1=§eNote: The dragon egg collection method can be directly excavated with bare hands, no need to use the traditional way of obtaining the ender dragon egg	#
+
+
+settings.dragonmounts.describes_text.egg_hatch0=The acquired cube dragon egg will not automatically hatch when placed on the ground. You need to Right-Click the cube dragon egg (phone: click) and see smoke particles appearing above the dragon egg to prove that the dragon egg has entered the hatching state. It takes 40 minutes to wait for natural incubation. During the process, you can use the eyes of ender to increase the incubation progress. Once the incubation progress is completed, it cannot continue to catalyze the incubation, and the dragon egg body will shake with the broken particles of the dragon egg and the roar of the dragon in the egg, which means that the dragon in the egg has already broken the shell. In minutes you can see a dragon that is less than one meter in length break out of its shell	#
+settings.dragonmounts.describes_text.egg_hatch1=§eNote: The dragon eggs naturally generated after defeating the ender dragon in the original version cannot be hatched.	#
+settings.dragonmounts.describes_text.egg_hatch6=§eIf you want to pick up the hatching dragon egg, you can use "Sneaking + Right Click" to operate the dragon egg to change it back to the block stage and dig and pick it up, but this will make its hatching progress zero.	#
+
+settings.dragonmounts.describes_text.egg_hatch2=§lThe currently supported methods for changing the breeds of dragon eggs are as follows:	#
+settings.dragonmounts.describes_text.egg_hatch3=· Water Dragon Eggs mutated into Storm Dragon Eggs after lightning strike	#
+settings.dragonmounts.describes_text.egg_hatch4=· Skeleton Dragon Eggs mutated into Wither Dragon Eggs after lightning strike	#
+settings.dragonmounts.describes_text.egg_hatch5=· Sculk Dragon Eggs is obtained from the Forest Dragon Eggs infected by the Warden	#
+
+
+settings.dragonmounts.describes_text.dragon_baby0=Natural growth takes 4 hours to grow into an adult dragon. The use of different types of raw fish can catalyze the growth of juvenile dragons to varying degrees	#
+settings.dragonmounts.describes_text.dragon_baby1=§lTo directly catalyze the growth of juvenile dragons into adult dragons requires:	#
+settings.dragonmounts.describes_text.dragon_baby2=· Fish: 128 	#
+settings.dragonmounts.describes_text.dragon_baby3=· Salmon: 96 	#
+settings.dragonmounts.describes_text.dragon_baby4=· Clownfish: 64 	#
+settings.dragonmounts.describes_text.dragon_baby5=§eNote: If an adult tamed dragon continues to feed the fish, it will directly put the dragon into estrus.	#
+
+
+settings.dragonmounts.describes_text.dragon_adult0=· Domestication: Any kind of fish can be used for domestication	#
+settings.dragonmounts.describes_text.dragon_adult1=· Estrus and reproduction: After domestication, continue to feed the fish to make the dragon enter the estrus state. When two dragons with the same breed in estrus are close to each other, they will reproduce, and then produce a physical dragon egg with the same breed as the breeding dragon, with different breeds. Dragons cannot breed	#
+settings.dragonmounts.describes_text.dragon_adult2=· Feeding: When feeding any kind of raw meat, the dragon can regain blood, and 4 drops of blood will be restored every time(2♥), feeding rotten flesh restores 4 blood (2♥)	#
+
+settings.dragonmounts.describes_text.dragon_adult3=Refer to the figure below, from top to bottom, you need equipment: saddle, dragon armor, chest	#
+
+settings.dragonmounts.describes_text.dragon_adult4=Point the cursor at the dragon interaction when the player sneaks  You can turn the dragon into a standby state, and use the same method to cancel the standby state.	#
+settings.dragonmounts.describes_text.dragon_adult5=When the dragon is on standby, it will stop any behavior, although the player can still ride and interact with the dragon.	#
+
+settings.dragonmounts.describes_text.dragon_adult6=· Dragon scale acquisition: Use diamond scissors to interact with the tamed dragon to cut the dragon scales. When the dragon loses blood, a certain number of dragon scales will fall, and a 60·second collection cooldown will be generated. It cannot be performed during the cooldown. Any collection (including the collection of Dragon's Breath)	#
+settings.dragonmounts.describes_text.dragon_adult7=  · A random amount of HP will be lost when the dragon scales are cut	#
+settings.dragonmounts.describes_text.dragon_adult8=· Dragon's Breath Collection: Use an empty glass bottle to interact with a tamed dragon to collect a bottle of dragon's breath and store it in your backpack	#
+
+settings.dragonmounts.describes_text.dragon_adult9=· The same behaviors of baby dragons: When the dragon is not on standby, it will look for hostile creatures around by itself, and when it finds a hostile creature, it will quickly carry out a bite attack, with an attack power of 24 HP (12♥). When the dragon is attacked by a non·owner, it will counterattack	#
+settings.dragonmounts.describes_text.dragon_adult10=· Unique behavior of baby dragon: When attacked by a player other than the owner, it will not counterattack	#
+
+
+settings.dragonmounts.describes_text.fly_con0=After riding the dragon and saddle, just tap the jump button to enter the flight state	#
+
+settings.dragonmounts.describes_text.fly_con1=After take·off, you only need to use the arrow keys and the viewing angle direction to control, the up and down of the viewing angle and the size of the angle determine the flying speed and landing speed	#
+
+settings.dragonmounts.describes_text.fly_con2=· Hold the flame stick and press the jump button to launch the fireball	#
+settings.dragonmounts.describes_text.fly_con3=· Hold the dragon's breath bottle and lightly press the jump button to perform a single spray of dragon's breath, long press the jump button to perform a continuous spray of dragon's breath	#
+settings.dragonmounts.describes_text.fly_con4=· Hold any item except the flame rod and dragon's breath and press the jump button for a long time to climb the flight height	#
+
+
+settings.dragonmounts.describes_text.crafting_queries0=§lDiamond Shears Recipes:	#
+settings.dragonmounts.describes_text.crafting_queries1=· Diamond*2	#
+settings.dragonmounts.describes_text.crafting_queries2=§lDragon Armor Recipes:	#
+settings.dragonmounts.describes_text.crafting_queries3=·  (Iron_block / Gold_block / Diamond_block / Emerald_block) *3	#
+settings.dragonmounts.describes_text.crafting_queries4=·  (Iron / Gold / Diamond / Emerald) *3	#
+settings.dragonmounts.describes_text.crafting_queries5=§lDragonscale Sword(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries6=·  Dragonscale*2	#
+settings.dragonmounts.describes_text.crafting_queries7=·  Stick*1	#
+settings.dragonmounts.describes_text.crafting_queries8=§lDragonscale Axe(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries9=·  Dragonscale*3	#
+settings.dragonmounts.describes_text.crafting_queries10=·  Stick*2	#
+settings.dragonmounts.describes_text.crafting_queries11=§lDragonscale Pickaxe(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries12=·  Dragonscale*3	#
+settings.dragonmounts.describes_text.crafting_queries13=·  Stick*2	#
+settings.dragonmounts.describes_text.crafting_queries14=§lDragonscale Shove(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries15=·  Dragonscale*1	#
+settings.dragonmounts.describes_text.crafting_queries16=·  Stick*2	#
+settings.dragonmounts.describes_text.crafting_queries17=§lDragonscale Hoe(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries18=·  Dragonscale*2	#
+settings.dragonmounts.describes_text.crafting_queries19=·  Stick*2	#
+settings.dragonmounts.describes_text.crafting_queries20=§lDragonscale Helmet(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries21=·  Dragonscale*5	#
+settings.dragonmounts.describes_text.crafting_queries22=§lDragonscale Chestplate(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries23=·  Dragonscale*8	#
+settings.dragonmounts.describes_text.crafting_queries24=§lDragonscale Leggings(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries25=·  Dragonscale*7	#
+settings.dragonmounts.describes_text.crafting_queries26=§lDragonscale Boots(The following figure only uses ender breeds as an example) recipes:	#
+settings.dragonmounts.describes_text.crafting_queries27=·  Dragonscale*4	#
+
+
+settings.dragonmounts.describes_text.become_a_contributor0=Contributors will always be recorded in the -About- page "Thanks". If you have a new idea, please send your idea to the owner's contact information on the -About- page. If it is adopted, we will reply.	#
+
+settings.dragonmounts.describes_text.become_a_contributor1=To make a Dragon Nest for a certain dragon breed, you can package and send Dragon Nests works as required through the contact information left in the "About" page (recommended to use Email for submission). §eIf your contribution to Dragon Nest is accepted, you will appear in the "Thanks" on the -About- page!	#
+settings.dragonmounts.describes_text.become_a_contributor2=-§lNotes on the submission of Dragon Nests:	#
+settings.dragonmounts.describes_text.become_a_contributor3=  · Please famous your screen name when submitting the work. Once adopted, your famous screen name will be recorded in the "Thanks";	#
+settings.dragonmounts.describes_text.become_a_contributor4=  · When making a Dragon Nest, please directly use the block Dragon Egg of the corresponding breed to place it in the place where the Dragon Egg is stored in the Dragon Nest. Only one dragon egg storage point is allowed in each Dragon Nests;	#
+settings.dragonmounts.describes_text.become_a_contributor5=  · When crafting Dragon Nests, please use Chests to set the location of treasure Chests. There is no need to store items in Chests;	#
+settings.dragonmounts.describes_text.become_a_contributor6=  · Please limit the length and width of Dragon Nests to 64×64;	#
+settings.dragonmounts.describes_text.become_a_contributor7=  · Please attach a screenshot of the Dragon Nest building when submitting your submission, so that staff can understand your submission content faster;	#
+settings.dragonmounts.describes_text.become_a_contributor8=  · The file sent by the submission allows it is your world (such as the .mcworld .zip file, for Bedrock Edition or Java Edition's world), or to directly submit the structure file (.mcstructure file only).	#
+
+
+settings.dragonmounts.describes_text.violators0=This page is used to publicize some serious violators of the mod community, and after contacting those who refuse to repent or related persons, once verified, the mod owner or the current development team of the Dragon Mounts mod will discuss and decide to give violators a certain period of time. Announce processing here.	#
+
+settings.dragonmounts.describes_text.violators1=Since "Qing#" handled the illegal removal incident properly and had a good attitude, he decided not to hold him accountable. However, due to the suspected person involved in this incident, "Minecraft GeLou" has made negative comments on this incident many times, and the original person "Qing#" explained that "Minecraft GeLou" has negative comments on "Qing#". slanderous conduct. After deliberation, it was decided to publicize the inappropriate behavior of "Minecraft GeLou".	#
+settings.dragonmounts.describes_text.violators2=§lPublic Time Period:§r Starting from §b1.4.22§r version, public for the next four updates	#
+settings.dragonmounts.describes_text.violators3=§lMisconduct Records: §r	#

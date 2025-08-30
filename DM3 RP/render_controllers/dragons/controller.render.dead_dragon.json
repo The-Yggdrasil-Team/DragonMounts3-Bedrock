@@ -1,0 +1,31 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.dead_dragon": {
+        "arrays": {
+          "textures": {
+            "Array.skins": [
+              "Texture.aether",
+              "Texture.enchant",
+              "Texture.ender",
+              "Texture.fire",
+              "Texture.forest",
+              "Texture.ice",
+              "Texture.moonlight",
+              "Texture.nether",
+              "Texture.skeleton",
+              "Texture.storm",
+              "Texture.sunlight",
+              "Texture.terra",
+              "Texture.water",
+              "Texture.wither",
+              "Texture.zombie"
+            ]
+          }
+        },
+        "geometry": "Geometry.default",
+        "materials": [ { "*": "Material.default" } ],
+        "textures": [ "Array.skins[query.variant]" ]
+      }
+    }
+}

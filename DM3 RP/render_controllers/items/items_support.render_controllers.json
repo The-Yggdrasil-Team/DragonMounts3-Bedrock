@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.items_support": {
+			"geometry": "Array.item_geo[query.skin_id]",
+			"materials": [
+				{
+					"*": "material.default"
+				},
+				{
+					"crystal": "Material.light"
+				},
+				{
+					"crystal_up": "Material.light"
+				},
+				{
+					"crystal_down": "Material.light"
+				}
+			],
+			"textures": [
+				"Array.item_texture[query.skin_id]"
+			],
+			"arrays": {
+				"geometries": {
+					"Array.item_geo": [
+						"Geometry.double_edged_axe_item"
+					]
+				},
+				"textures": {
+					"Array.item_texture": [
+						"Texture.double_edged_axe"
+					]
+				}
+			}
+		}
+	}
+}
