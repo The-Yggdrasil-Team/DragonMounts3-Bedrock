@@ -1,0 +1,217 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dragon.action": {
+			"initial_state": "on_ground",
+			"states": {
+				"fly": {
+					"animations": [
+						{
+							"dragon_shoot": "query.get_equipped_item_name == 'dragon_breath' || query.get_equipped_item_name == 'blaze_rod'"
+						},
+						"dragon_fly"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"on_ground": "(!query.is_sitting || query.has_rider) && !query.is_stunned && query.modified_move_speed <= 0.2"
+						},
+						{
+							"walk": "query.is_on_ground && query.modified_move_speed > 0.2"
+						},
+						{
+							"subduction": "!query.is_on_ground  && query.target_x_rotation > 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"sit": "query.is_sitting && query.is_on_ground && !query.has_rider"
+						},
+						{
+							"hover": "!query.is_on_ground && query.modified_move_speed <= 0.5"
+						}
+					]
+				},
+				"subduction": {
+					"animations": [
+						{
+							"dragon_shoot": "query.get_equipped_item_name == 'dragon_breath' || query.get_equipped_item_name == 'blaze_rod'"
+						},
+						"dragon_subduction"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"on_ground": "(!query.is_sitting || query.has_rider) && query.is_on_ground && query.modified_move_speed <= 0.2"
+						},
+						{
+							"walk": "(!query.is_sitting || query.has_rider) && query.is_on_ground && query.modified_move_speed > 0.2"
+						},
+						{
+							"fly": "!query.is_on_ground && query.target_x_rotation <= 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"sit": "query.is_sitting && query.is_on_ground && query.modified_move_speed > 0.2 && !query.has_rider"
+						},
+						{
+							"hover": "!query.is_on_ground && query.modified_move_speed <= 0.5"
+						}
+					]
+				},
+				"hover": {
+					"animations": [
+						{
+							"dragon_shoot": "query.get_equipped_item_name == 'dragon_breath' || query.get_equipped_item_name == 'blaze_rod'"
+						},
+						"dragon_hover"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"on_ground": "(!query.is_sitting || query.has_rider) && query.is_on_ground && query.modified_move_speed <= 0.2"
+						},
+						{
+							"walk": "query.is_on_ground && query.modified_move_speed > 0.2"
+						},
+						{
+							"fly": "!query.is_on_ground && query.target_x_rotation <= 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"sit": "query.is_sitting && query.is_on_ground && !query.has_rider"
+						},
+						{
+							"subduction": "!query.is_on_ground && query.target_x_rotation > 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						}
+					]
+				},
+				"sit": {
+					"animations": [
+						"dragon_sit"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"on_ground": "!query.is_sitting || query.has_rider"
+						},
+						{
+							"walk": "!query.is_stunned && query.modified_move_speed > 0.2"
+						},
+						{
+							"fly": "!query.is_on_ground && query.target_x_rotation <= 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"subduction": "!query.is_on_ground && query.target_x_rotation > 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"hover": "!query.is_on_ground && query.modified_move_speed <= 0.5 && query.has_rider"
+						}
+					]
+				},
+				"on_ground": {
+					"animations": [
+						"dragon_default_b"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"fly": "!query.is_on_ground && query.target_x_rotation <= 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"walk": "query.is_on_ground && query.modified_move_speed > 0.25"
+						},
+						{
+							"sit": "query.is_sitting && !query.has_rider"
+						},
+						{
+							"attack": "query.is_delayed_attacking == 1"
+						},
+						{
+							"subduction": "!query.is_on_ground && query.target_x_rotation > 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"hover": "!query.is_on_ground && query.modified_move_speed <= 0.5 && query.has_rider"
+						}
+					]
+				},
+				"walk": {
+					"animations": [
+						"dragon_walk",
+						"dragon_default_walk"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"fly": "!query.is_on_ground && query.anim_time > 2 && query.target_x_rotation <= 0.2 && query.modified_move_speed > 0.5 && query.has_rider"
+						},
+						{
+							"on_ground": "(!query.is_sitting || query.has_rider) && query.is_on_ground && query.modified_move_speed <= 0.25"
+						},
+						{
+							"attack": "query.is_delayed_attacking == 1"
+						},
+						{
+							"subduction": "!query.is_on_ground && query.has_rider"
+						},
+						{
+							"sit": "query.is_sitting && query.is_on_ground && query.modified_move_speed <= 0.25 && !query.has_rider"
+						},
+						{
+							"hover": "!query.is_on_ground && query.modified_move_speed <= 0.5 && query.has_rider"
+						}
+					]
+				},
+				"attack": {
+					"animations": [
+						"dragon_attack",
+						"dragon_default_b"
+					],
+					// "blend_transition": 0.05,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"on_ground": "query.is_delayed_attacking == 0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.dead":{
+			"initial_state": "ground",
+			"states": {
+				"ground":{
+					"animations": [
+						"walk"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"dead": "true"
+						}
+					]
+				},
+				"dead":{
+					"animations": [
+						"dead"
+					],
+					"blend_transition": 0.75,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"revive": "query.is_transforming"
+						}
+					]
+				},
+				"revive":{
+					"animations": [
+						"revive"
+					]
+				}
+			}
+		}
+	}
+}
