@@ -1,0 +1,114 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonmounts:dead_dragon_2",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "despawn":{
+        "minecraft:instant_despawn": {}
+      },
+      "time":{
+        "minecraft:timer": {
+          "time": 900,
+          "looping": false,
+          "time_down_event": {"event": "despawn"}
+        }
+      },
+        "sculk":{
+            "minecraft:variant":{
+                "value": 0
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:sculk_essence"}]},
+                      "event": "sculk_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "sculk_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:sculk_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        }
+    },
+    "components": {
+      "minecraft:is_collidable": {},
+      "minecraft:fire_immune": true,
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:type_family": {"family": ["dragonmounts"]},
+      "minecraft:health": {
+        "value": 10,
+        "max": 200
+      },
+      "minecraft:physics": {},
+      "minecraft:collision_box": {
+        "width": 2.0,
+        "height": 3.0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:equippable": {
+        "slots": [
+          {
+            "slot": 0,
+            "item": "saddle",
+            "accepted_items": [
+              "saddle"
+            ]
+          },
+          {
+            "slot": 1,
+            "item": "horsearmoriron",
+            "accepted_items": [
+              "dragonmounts:dragonarmor_emerald",
+              "dragonmounts:dragonarmor_iron",
+              "dragonmounts:dragonarmor_gold",
+              "dragonmounts:dragonarmor_diamond"
+            ]
+          },
+          {
+            "slot": 2,
+            "item": "chest",
+            "accepted_items": [
+              "chest"
+            ]
+          }
+        ]
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "sculk":{"add":{"component_groups":["sculk","time"]}},
+        "sculk_r": {
+            "add":{"component_groups":["sculk_transform"]}
+        },
+        "despawn": {
+            "add":{"component_groups":["despawn"]}
+        }
+    }
+  }
+}

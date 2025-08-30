@@ -1,0 +1,478 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonmounts:dead_dragon",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+        "despawn":{
+        "minecraft:instant_despawn": {}
+      },
+      "time":{
+        "minecraft:timer": {
+          "time": 900,
+          "looping": false,
+          "time_down_event": {"event": "despawn"}
+        }
+      },
+        "aether":{
+            "minecraft:variant":{
+                "value": 0
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:aether_essence"}]},
+                        "event": "aether_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "aether_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:aether_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "enchant":{
+            "minecraft:variant":{
+                "value": 1
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:enchant_essence"}]},
+                        "event": "enchant_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "enchant_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:ender_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "ender":{
+            "minecraft:variant":{
+                "value": 2
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:ender_essence"}]},
+                        "event": "ender_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "ender_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:ender_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "fire":{
+            "minecraft:variant":{
+                "value": 3
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:fire_essence"}]},
+                        "event": "fire_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "fire_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:fire_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "forest":{
+            "minecraft:variant":{
+                "value": 4
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:forest_essence"}]},
+                        "event": "forest_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "forest_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:forest_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "ice":{
+            "minecraft:variant":{
+                "value": 5
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:ice_essence"}]},
+                        "event": "ice_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "ice_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:ice_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "moonlight":{
+            "minecraft:variant":{
+                "value": 6
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:moonlight_essence"}]},
+                        "event": "moonlight_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "moonlight_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:moonlight_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "nether":{
+            "minecraft:variant":{
+                "value": 7
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:nether_essence"}]},
+                        "event": "nether_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "nether_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:nether_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "skeleton":{
+            "minecraft:variant":{
+                "value": 8
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:skeleton_essence"}]},
+                        "event": "skeleton_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "skeleton_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:ice_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "storm":{
+            "minecraft:variant":{
+                "value": 9
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:storm_essence"}]},
+                        "event": "storm_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "storm_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:storm_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "sunlight":{
+            "minecraft:variant":{
+                "value": 10
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:sunlight_essence"}]},
+                        "event": "sunlight_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "sunlight_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:sunlight_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "terra":{
+            "minecraft:variant":{
+                "value": 11
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:terra_essence"}]},
+                        "event": "terra_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "terra_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:terra_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "water":{
+            "minecraft:variant":{
+                "value": 12
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:water_essence"}]},
+                        "event": "water_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "water_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:water_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "wither":{
+            "minecraft:variant":{
+                "value": 13
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:wither_essence"}]},
+                        "event": "wither_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "wither_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:wither_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        },
+        "zombie":{
+            "minecraft:variant":{
+                "value": 14
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {"on_interact": {"filters": {"all_of": [{"test": "has_equipment","subject": "other","domain": "hand","value": "dragonmounts:zombie_essence"}]},
+                        "event": "zombie_r","target": "self"},"interact_text": "Revive"}
+                ]
+            }
+        },
+        "zombie_transform":{
+            "minecraft:transformation": {
+                "into": "dragonmounts:zombie_dragon<revived>",
+                "delay": {"value": 10},
+                "drop_inventory": false,
+                "drop_equipment": false,
+                "preserve_equipment": true,
+                "keep_level": true,
+                "keep_owner": true
+            }
+        }
+    },
+    "components": {
+        "minecraft:is_collidable": {},
+      "minecraft:fire_immune": true,
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:type_family": {"family": ["dragonmounts"]},
+      "minecraft:health": {
+        "value": 10,
+        "max": 200
+      },
+      "minecraft:physics": {},
+      "minecraft:collision_box": {
+        "width": 2.0,
+        "height": 3.0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:equippable": {
+        "slots": [
+          {
+            "slot": 0,
+            "item": "saddle",
+            "accepted_items": [
+              "saddle"
+            ]
+          },
+          {
+            "slot": 1,
+            "item": "horsearmoriron",
+            "accepted_items": [
+              "dragonmounts:dragonarmor_emerald",
+              "dragonmounts:dragonarmor_iron",
+              "dragonmounts:dragonarmor_gold",
+              "dragonmounts:dragonarmor_diamond"
+            ]
+          },
+          {
+            "slot": 2,
+            "item": "chest",
+            "accepted_items": [
+              "chest"
+            ]
+          }
+        ]
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "aether":{"add":{"component_groups":["aether","time"]}},
+        "aether_r": {
+            "add":{"component_groups":["aether_transform"]}
+        },
+        "enchant":{"add":{"component_groups":["enchant","time"]}},
+        "enchant_r": {
+            "add":{"component_groups":["enchant_transform"]}
+        },
+        "ender":{"add":{"component_groups":["ender","time"]}},
+        "ender_r": {
+            "add":{"component_groups":["ender_transform"]}
+        },
+        "fire":{"add":{"component_groups":["fire","time"]}},
+        "fire_r": {
+            "add":{"component_groups":["fire_transform"]}
+        },
+        "forest":{"add":{"component_groups":["forest","time"]}},
+        "forest_r": {
+            "add":{"component_groups":["forest_transform"]}
+        },
+        "ice":{"add":{"component_groups":["ice","time"]}},
+        "ice_r": {
+            "add":{"component_groups":["ice_transform"]}
+        },
+        "moonlight":{"add":{"component_groups":["moonlight","time"]}},
+        "moonlight_r": {
+            "add":{"component_groups":["moonlight_transform"]}
+        },
+        "nether":{"add":{"component_groups":["nether","time"]}},
+        "nether_r": {
+            "add":{"component_groups":["nether_transform"]}
+        },
+        "skeleton":{"add":{"component_groups":["skeleton","time"]}},
+        "skeleton_r": {
+            "add":{"component_groups":["skeleton_transform"]}
+        },
+        "storm":{"add":{"component_groups":["storm","time"]}},
+        "strom_r": {
+            "add":{"component_groups":["storm_transform"]}
+        },
+        "sunlight":{"add":{"component_groups":["sunlight","time"]}},
+        "sunlight_r": {
+            "add":{"component_groups":["sunlight_transform"]}
+        },
+        "terra":{"add":{"component_groups":["terra","time"]}},
+        "terra_r": {
+            "add":{"component_groups":["terra_transform"]}
+        },
+        "water":{"add":{"component_groups":["water","time"]}},
+        "water_r": {
+            "add":{"component_groups":["water_transform"]}
+        },
+        "wither":{"add":{"component_groups":["wither","time"]}},
+        "wither_r": {
+            "add":{"component_groups":["wither_transform"]}
+        },
+        "zombie":{"add":{"component_groups":["zombie","time"]}},
+        "zombie_r": {
+            "add":{"component_groups":["zombie_transform"]}
+        },
+        "despawn": {
+            "add":{"component_groups":["despawn"]}
+        }
+    }
+  }
+}

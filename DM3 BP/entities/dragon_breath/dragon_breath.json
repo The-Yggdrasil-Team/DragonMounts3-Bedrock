@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dragonmounts:dragon_breath",
+			"runtime_identifier": "minecraft:snowball",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.08,
+				"height": 0.08
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"spawn_aoe_cloud": {
+						"radius": 6.0,
+						"radius_on_use": 0,
+						"potion": 23,
+						"particle": "dragonbreath",
+						"duration": 30,
+						"color": [
+							220,
+							0,
+							239
+						],
+						"affect_owner": false
+					},
+					"remove_on_hit": {}
+				},
+				"power": 4.8,
+				"gravity":0.00,
+				"inertia": 1,
+				"offset": [
+					0.0,
+					-1.5,
+					0.0
+				],
+				"semi_random_diff_damage": true,
+				"uncertainty_base": 10.0,
+				"reflect_on_hurt": true,
+				"hit_sound": "explode"
+			}
+		},
+		"minecraft:physics": {},
+		"minecraft:pushable": {
+			"is_pushable": true,
+			"is_pushable_by_piston": true
+		}
+	}
+}

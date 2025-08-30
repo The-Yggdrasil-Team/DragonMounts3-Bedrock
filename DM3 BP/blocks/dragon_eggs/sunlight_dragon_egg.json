@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dragonmounts:sunlight_dragon_egg",
+			"register_to_creative_menu": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.dragon_egg",
+			"minecraft:material_instances": {
+        		"*": {
+					"texture": "sunlight_dragon_egg",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/sunlight.json"
+		}
+	}
+}
