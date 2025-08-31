@@ -1464,6 +1464,7 @@
 					},
 					"scale": {
 						"0.0": [1, 1, 1],
+						"7.9": [1, 1, 1],
 						"8.1": [0, 0, 0]
 					}
 				},
@@ -1620,7 +1621,8 @@
 					"position": {
 						"0.0": [60, 0, -36],
 						"8.0": [0, 0, 0]
-					}
+					},
+					"scale": 0
 				},
 				"RightWingPu00": {
 					"rotation": {
@@ -1630,7 +1632,8 @@
 					"position": {
 						"0.0": [-34, 1, -69],
 						"8.0": [0, 0, 0]
-					}
+					},
+					"scale": 0
 				},
 				"LeftWingPu1": {
 					"rotation": {
@@ -1641,7 +1644,10 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "death"
+					"effect": "thunder"
+				},
+				"9.0": {
+					"effect": "growl"
 				}
 			},
 			"particle_effects": {
@@ -1649,7 +1655,7 @@
 					"effect": "magic",
 					"locator": "ground"
 				},
-				"8.0": {
+				"7.0": {
 					"effect": "smoke",
 					"locator": "deathboom"
 				}
