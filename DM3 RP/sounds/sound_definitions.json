@@ -336,7 +336,7 @@
 		}
 	  ]
 	},
-	"mob.renderdragon.growl": {
+	"custom.renderdragon.growl": {
 	  "category": "hostile",
 	  "sounds": [
 		{
@@ -357,11 +357,7 @@
 		}
 	  ]
 	},
-	"ambient.weather.thunder" : {
-         "__use_legacy_max_distance" : "true",
-         "category" : "weather",
-         "max_distance" : null,
-         "min_distance" : 100.0,
+	"custom.weather.thunder" : {
          "sounds" : [
             {
                "load_on_low_memory" : true,
