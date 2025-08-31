@@ -1,5 +1,6 @@
 ![LOGO](https://media.forgecdn.net/attachments/1290/838/logodm3.png)
 
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1328825?logo=Curseforge&label=CurseForge&labelColor=Gray)](https://www.curseforge.com/minecraft-bedrock/addons/dragon-mounts-v1-3-25)
 [![Discord](https://img.shields.io/discord/1293105990476103720?logo=Discord&logoColor=white&label=Discord&labelColor=%235865F2)](https://discord.gg/Ewm8aTTJ3K)
 
 **Dragon Mounts 3: Definitive Edition** is a remastered version of DM3 that is created and owned by Myro0887. This is a complete rewrite with all the contents from the 2023 release, including special features that adds quality of life improvements, cut content and making it distinctly different from it's prequel, **Dragon Mounts 2**.
