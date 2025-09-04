@@ -1,1 +1,1 @@
-fill ~ ~1 ~ ~ ~1 ~ air replace water
+fill ~-1 ~-1 ~-1 ~2 ~ ~2 air replace water
