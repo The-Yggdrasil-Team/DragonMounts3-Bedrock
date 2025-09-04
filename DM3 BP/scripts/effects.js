@@ -10,6 +10,24 @@ function armor() {
     const legs  = eq.getEquipment(EquipmentSlot.Legs);
     const feet  = eq.getEquipment(EquipmentSlot.Feet);
 
+    //nether
+    if (
+      head?.typeId  === "dragonmounts:nether_dragonscale_helmet" &&
+      chest?.typeId === "dragonmounts:nether_dragonscale_chestplate" &&
+      legs?.typeId  === "dragonmounts:nether_dragonscale_leggings" &&
+      feet?.typeId  === "dragonmounts:nether_dragonscale_boots"
+    ) {
+      player.runCommandAsync(`/function nether_effect`);
+    }
+    //ice
+    if (
+      head?.typeId  === "dragonmounts:ice_dragonscale_helmet" &&
+      chest?.typeId === "dragonmounts:ice_dragonscale_chestplate" &&
+      legs?.typeId  === "dragonmounts:ice_dragonscale_leggings" &&
+      feet?.typeId  === "dragonmounts:ice_dragonscale_boots"
+    ) {
+      player.runCommandAsync(`/function ice_effect`);
+    }
     //water
     if (
       head?.typeId  === "dragonmounts:water_dragonscale_helmet" &&
@@ -117,9 +135,9 @@ function armor() {
       legs?.typeId  === "dragonmounts:sculk_dragonscale_leggings" &&
       feet?.typeId  === "dragonmounts:sculk_dragonscale_boots"
     ) {
-      player.addEffect("darkness", 1, { amplifier: 0, showParticles: false });
-      player.addEffect("resistance", 16, { amplifier: 1, showParticles: false });
-      player.addEffect("strength", 16, { amplifier: 0, showParticles: false });
+      player.addEffect("darkness", 1, { amplifier: 0});
+      player.addEffect("resistance", 16, { amplifier: 1});
+      player.addEffect("strength", 16, { amplifier: 0});
     }
   }
 
