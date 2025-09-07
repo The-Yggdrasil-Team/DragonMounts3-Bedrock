@@ -3,7 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "dragonmounts:dead_dragon",
-      "is_spawnable": true,
+      "is_spawnable": false,
       "is_summonable": true,
       "is_experimental": false
     },
@@ -447,7 +447,7 @@
             "add":{"component_groups":["skeleton_transform"]}
         },
         "storm":{"add":{"component_groups":["storm","time"]}},
-        "strom_r": {
+        "storm_r": {
             "add":{"component_groups":["storm_transform"]}
         },
         "sunlight":{"add":{"component_groups":["sunlight","time"]}},
