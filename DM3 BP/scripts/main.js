@@ -1,3 +1,7 @@
 import './effects.js'
 import './tools.js'
 import './fireball.js'
+import './guidebook.js'
+import './egg_blocks.js'
+import './guidebook_utils.js'
+import './give_guidebook.js'
