@@ -3,7 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "dragonmounts:water_dragon_egg",
-      "is_spawnable": true,
+      "is_spawnable": false,
       "is_summonable": true,
       "is_experimental": false
     },
@@ -24,9 +24,6 @@
           "interactions": [
             {
               "interact_text": "action.interact.transform_block_dragon_eggs.dragonmounts",
-              "spawn_items": {
-                "table": "loot_tables/blocks/water.json"
-              },
               "on_interact": {
                 "filters": {
                   "all_of": [
@@ -35,6 +32,19 @@
                   ]
                 },
                 "event": "block",
+                "target": "self"
+              }
+            },
+            {
+              "interact_text": "unlock guidebook",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {"test": "is_family","subject": "other","value": "player"},
+                    {"test": "has_equipment", "subject": "other","domain": "hand","value": "dm:guidebook"}
+                  ]
+                },
+                "event": "guidebook",
                 "target": "self"
               }
             }
@@ -55,10 +65,11 @@
         }
       },
       "hatching": {
+        "minecraft:is_ignited": {},
         "minecraft:ageable": {
           "duration": 48000,
             "feed_items": [
-              {"item": "minecraft:ender_eye","growth": 0.142857}
+              {"item": "minecraft:water_bucket","growth": 0.142857}
             ],
           "grow_up": {
             "event": "hatch",
@@ -135,11 +146,16 @@
     },
     "events": {
       "storm": {
-        "add": {
-          "component_groups": ["storm"]
-        }
+        "add": {"component_groups": ["storm"]},
+        "queue_command": {"command": ["scriptevent dm:guidebook storm_egg"]}
+      },
+      "guidebook":{
+        "queue_command": {"command": ["scriptevent dm:guidebook water_egg"]}
       },
       "block": {
+        "queue_command": {"command": ["scriptevent dm:block water"]}
+      },
+      "despawn": {
         "add": {"component_groups": ["despawn"]}
       },
       "minecraft:entity_spawned":{
@@ -147,7 +163,8 @@
       },
       "hatching":{
         "remove": {"component_groups": ["start"]},
-        "add":{"component_groups":["hatching","interact"]}
+        "add":{"component_groups":["hatching","interact"]},
+        "queue_command": {"command": ["function overworld_egg"]}
         
       },
       "hatch": {
