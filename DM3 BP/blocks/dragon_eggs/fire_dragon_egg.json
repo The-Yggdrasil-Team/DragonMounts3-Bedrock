@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/fire.json"
+			"minecraft:loot": "loot_tables/blocks/fire.json",
+      "minecraft:custom_components": ["fire_entity:trigger"]
 		}
 	}
 }

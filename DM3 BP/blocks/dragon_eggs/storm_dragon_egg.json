@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/storm.json"
+			"minecraft:loot": "loot_tables/blocks/storm.json",
+      "minecraft:custom_components": ["storm_entity:trigger"]
 		}
 	}
 }

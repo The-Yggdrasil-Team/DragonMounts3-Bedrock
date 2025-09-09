@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/wither.json"
+			"minecraft:loot": "loot_tables/blocks/wither.json",
+      "minecraft:custom_components": ["wither_entity:trigger"]
 		}
 	}
 }

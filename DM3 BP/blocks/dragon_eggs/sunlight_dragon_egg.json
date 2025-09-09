@@ -14,7 +14,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/sunlight.json"
+			"minecraft:loot": "loot_tables/blocks/sunlight.json",
+      "minecraft:custom_components": ["sunlight_entity:trigger"]
 		}
 	}
 }

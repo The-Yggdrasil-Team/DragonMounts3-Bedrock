@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/nether.json"
+			"minecraft:loot": "loot_tables/blocks/nether.json",
+      "minecraft:custom_components": ["nether_entity:trigger"]
 		}
 	}
 }

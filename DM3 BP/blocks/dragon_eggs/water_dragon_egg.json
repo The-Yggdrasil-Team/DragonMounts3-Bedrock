@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/water.json"
+			"minecraft:loot": "loot_tables/blocks/water.json",
+      "minecraft:custom_components": ["water_entity:trigger"]
 		}
 	}
 }

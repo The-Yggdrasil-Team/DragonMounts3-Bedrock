@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/zombie.json"
+			"minecraft:loot": "loot_tables/blocks/zombie.json",
+      "minecraft:custom_components": ["zombie_entity:trigger"]
 		}
 	}
 }

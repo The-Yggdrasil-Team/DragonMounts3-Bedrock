@@ -13,7 +13,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/ender.json"
+			"minecraft:loot": "loot_tables/blocks/ender.json",
+      "minecraft:custom_components": ["ender_entity:trigger"]
 		}
 	}
 }

@@ -12,7 +12,8 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/moonlight.json"
+			"minecraft:loot": "loot_tables/blocks/moonlight.json",
+      "minecraft:custom_components": ["moonlight_entity:trigger"]
 		}
 	}
 }
