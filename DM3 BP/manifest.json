@@ -1,10 +1,10 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§lDragon Mounts 3 §crevision experimentals §r(v1.21.100)",
+		"name": "§lDragon Mounts 3 §crevision BP",
 		"description": "For this Pack to work correct it needs the Ressourcepack with revision",
 		"uuid": "e2c03426-7a1e-429a-8554-d6581f6848ac",
-		"version": [1, 0, 0],
+		"version": [1, 1, 0],
 		"min_engine_version": [1,20,30],
 		"pack_scope": "world"
 	},
@@ -12,7 +12,7 @@
 		{
 			"description": " Authors: Myro and the script von Mohamed Wageh (Addon: AioT)",
 			"uuid": "e93b4c1d-c0e1-48a6-b3c9-05d93877d9fa",
-			"version": [1, 4, 29],
+			"version": [1, 1, 0],
 			"type": "data"
 		},
 		{
@@ -31,12 +31,16 @@
 	"capabilities": ["script_eval"],
 	"dependencies": [
 		{
-			"version": [1, 0, 0],
+			"version": [1, 1, 0],
 			"uuid": "31719625-72e8-4789-8bf3-d80d59a451d4"
 		},
 		{
             "module_name": "@minecraft/server",
             "version": "1.13.0"
-        }
+        },
+		{
+    		"module_name": "@minecraft/server-ui",
+    		"version": "1.1.0"
+		}
 	]
 }
