@@ -26,7 +26,8 @@
     "metadata": {
         "authors": [
 			"Myro and the script von Mohamed Wageh (Addon: AioT) and creative input from Tomanex"
-        ]
+        ],
+        "product_type": "addon"
     },
 	"capabilities": ["script_eval"],
 	"dependencies": [
