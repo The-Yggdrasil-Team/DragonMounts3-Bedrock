@@ -1,0 +1,57 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"dragonmounts:dragon_nest_block": {
+		"isotropic": true,
+		"textures": "dragon_nest_block",
+		"sound": "wood"
+	},
+	"dragonmounts:aether_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:enchant_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:ender_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:fire_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:forest_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:ice_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:moonlight_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:nether_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:skeleton_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:storm_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:sunlight_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:terra_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:water_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:wither_dragon_egg": {
+		"sound": "stone"
+	},
+	"dragonmounts:zombie_dragon_egg": {
+		"sound": "stone"
+	}
+}
