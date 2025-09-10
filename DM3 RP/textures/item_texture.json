@@ -2,6 +2,7 @@
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"guidebook":{"textures": "textures/items/guidebook"},
 //spawneggs
 		"aether_dragon_head":{"textures": "textures/items/heads/aether"},
 		"enchant_dragon_head":{"textures": "textures/items/heads/enchant"},
