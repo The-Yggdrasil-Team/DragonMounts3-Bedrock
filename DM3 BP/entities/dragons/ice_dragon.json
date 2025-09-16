@@ -252,9 +252,6 @@
       },
       "dragonmounts:dragon_tame": {
         "minecraft:is_tamed": {},
-        "minecraft:variant": {
-          "value": 1
-        },
         "minecraft:health": {
           "value": 200,
           "max": 200
@@ -875,8 +872,8 @@
         "sequence": [
           {
             "filters": {
-              "test": "is_variant",
-              "value": 1
+              "test": "has_component",
+              "value": "minecraft:is_tamed"
             },
             "add": {
               "component_groups": [
@@ -892,8 +889,7 @@
             },
             "add": {
               "component_groups": [
-                "dragonmounts:dragon_adult",
-                "dragonmounts:dragon_wild"
+                "dragonmounts:dragon_adult"
               ]
             }
           }

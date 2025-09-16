@@ -3,7 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "dragonmounts:dead_dragon_2",
-      "is_spawnable": true,
+      "is_spawnable": false,
       "is_summonable": true,
       "is_experimental": false
     },
@@ -50,7 +50,7 @@
         "value": 100,
         "max": 100
       },
-      "minecraft:type_family": {"family": ["dragonmounts"]},
+      "minecraft:type_family": {"family": ["dragonmounts","corpse"]},
       "minecraft:health": {
         "value": 10,
         "max": 200
