@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "§lDragon Mounts 3 §crevision BP",
-		"description": "For this Pack to work correct it needs the Ressourcepack with revision",
+		"description": "For this Pack to work correct you also need to activate the ressource pack",
 		"uuid": "e2c03426-7a1e-429a-8554-d6581f6848ac",
-		"version": [1, 1, 0],
+		"version": [1, 1, 1],
 		"min_engine_version": [1,20,30],
 		"pack_scope": "world"
 	},
@@ -32,7 +32,7 @@
 	"capabilities": ["script_eval"],
 	"dependencies": [
 		{
-			"version": [1, 1, 0],
+			"version": [1, 1, 1],
 			"uuid": "31719625-72e8-4789-8bf3-d80d59a451d4"
 		},
 		{
